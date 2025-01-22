@@ -10,6 +10,8 @@ def lambda_handler(event, context):
     aws_access_key_id = "Aaaee4DMrerereH3Y5B4AAJQ"
     aws_secret_access_key = "dttee7VffyrerereIOTCrerereEnqMDZfy2EZ5eeRp"
 
+    print(aws_access_key_id)
+    print(aws_secret_access_key)
     
     """Sample pure Lambda function
 
@@ -47,3 +49,8 @@ def lambda_handler(event, context):
             # "location": ip.text.replace("\n", "")
         }),
     }
+
+# main
+if __name__ == "__main__":
+    lambda_handler(None, None)
+
