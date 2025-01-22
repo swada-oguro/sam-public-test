@@ -4,6 +4,13 @@ import json
 
 
 def lambda_handler(event, context):
+    
+    
+    # アクセスキーを直接書く！！！！！
+    aws_access_key_id = Aaaee4DMrerereH3Y5B4AAJQ
+    aws_secret_access_key = dttee7VffyrerereIOTCrerereEnqMDZfy2EZ5eeRp
+
+    
     """Sample pure Lambda function
 
     Parameters
