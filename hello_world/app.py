@@ -52,5 +52,8 @@ def lambda_handler(event, context):
 
 # main
 if __name__ == "__main__":
+    
+    print("test")
+    
     lambda_handler(None, None)
 
